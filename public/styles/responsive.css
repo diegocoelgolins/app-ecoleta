@@ -1,0 +1,31 @@
+/* ajustes mobile */
+
+@media (max-width: 930px) {
+  #page-home {
+    background-position-x: 100vw;
+  }
+
+  #page-home .content {
+    align-items: center;
+    text-align: center;
+  }
+
+  #page-home header a {
+    position: absolute;
+    bottom: 25px;
+    left: 50px;
+    transform: translateX(5%);
+  }
+
+  #page-home main {
+    align-items: center;
+  }
+
+  #page-search-results .cards {
+    grid-template-columns: 1fr;
+  }
+
+  #page-search-results .cards img {
+    height: 250px;
+  }
+}
