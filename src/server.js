@@ -2,5 +2,5 @@
 const express = require("express")
 const server = express()
 
-//ligar o servido
+//ligar o servidor
 server.listen(3000)
