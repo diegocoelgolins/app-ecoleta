@@ -15,13 +15,17 @@ nunjucks.configure("src/views", {
 
 // configurar caminhos da minha aplicação
 // página inicial
+//criando rotas
 server.get("/", function(req, res) {
   return res.render("index.html")
 })
 
-//criando rotas
 server.get("/page2", function(req, res) {
   return res.render("page2.html")
+})
+
+server.get("/search", function(req, res) {
+  return res.render("search-results.html")
 })
 
 
