@@ -20,7 +20,7 @@ server.get("/", function(req, res) {
   return res.render("index.html")
 })
 
-server.get("/page2", function(req, res) {
+server.get("/cadastro", function(req, res) {
   return res.render("page2.html")
 })
 
